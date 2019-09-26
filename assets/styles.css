@@ -71,10 +71,6 @@ h1.main-header{
 MAIN BODY
 ====================================== */
 
-div {
-  width; 33.33%
-}
-
 .group {
   float: left;
   margin: 50px 20px;
@@ -83,13 +79,17 @@ div {
   border: 5px solid tomato;
 }
 
+.group-favorite {
+  float: left;
+  margin: 50px 20px;
+  padding: 20px;
+  background-color: cornsilk;
+  border: 5px solid slateblue;
+}
+
 img {
   width:300px;
   height:200px;
-}
-
-img.favorite {
-  border-color: slateblue;
 }
 
 p {
